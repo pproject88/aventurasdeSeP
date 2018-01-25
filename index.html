@@ -1,1 +1,134 @@
-<h1>Under construction</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>As Aventuras de Sílvia e Pedro</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- Display the countdown timer in an element -->
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 14, 2018 17:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(updateTime, 1000);
+function updateTime() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = Math.abs(countDownDate - now);
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+
+  document.getElementById("countdown_text").innerHTML = days + " Dias " + hours + " Horas "
+  + minutes + " Minutos ";// + seconds + " segundos ";
+}
+</script>
+
+<div id="branch0"></div>
+<div id="branch1"></div>
+<div id="branch2"></div>
+<div id="branch3"></div>
+<div id="branch4"></div>
+<div id="branch5"></div>
+<div id="branch6"></div>
+<div id="branch7"></div>
+<div id="directions"></div>
+
+<div id="leftTree"></div>
+<div id="rightTree"></div>
+<!-- Countdown  -->
+<div id="countdown"> 
+	<div id="nav_menu">
+		<ul id="menu_list">
+			<a href="#videos"> <li><span class="btn_icon_wrapper">Video</span><img class="btn_icon" src="imgs/iconPlay.svg"></img></li> </a>
+			<a href="#wedding"> <li><span class="btn_icon_wrapper">Wedding</span><img class="btn_icon" src="imgs/iconFarm.svg"></img></li> </a>
+			<a href="#location"> <li><span class="btn_icon_wrapper">Location</span><img class="btn_icon" src="imgs/iconGoogleMaps.svg"></img></li> </a>
+			<a href="#invite_list"> <li><span class="btn_icon_wrapper">Invite_list</span><img class="btn_icon" src="imgs/iconInvited.svg"></img></li> </a>
+			<a href="#honeymoon"> <li><span class="btn_icon_wrapper">Honeymoon</span><img class="btn_icon" src="imgs/iconHoneyMoon.svg"></img></li> </a>
+			<a href="#photos"> <li><span class="btn_icon_wrapper">Photos</span><img class="btn_icon" src="imgs/iconAdventure.svg"></img></li> </a>
+		</ul>
+	</div>
+	<div id="countdown_wrapper">
+		<h1>As Aventuras de</h1>
+		<img src="imgs/logo.svg" height="250px" align="middle"></img>
+		<h1 id="countdown_text"></h1>
+	</div>
+</div>
+
+<!-- History  -->
+<div id="videos">
+	<iframe width="50%" height="100vh" src="https://www.youtube.com/embed/e7Z2I9x4Pd0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="50%" height="100vh" src="https://www.youtube.com/embed/e7Z2I9x4Pd0" frameborder="0" allowfullscreen></iframe> 
+	<div id="coming_soon"><h1>Coming soon...</h1></div>
+</div>
+
+<!-- Invitation List -->
+<div id="invite_list">
+	<h1>Invitation List:</h1>
+	<div id="list_wrapper">
+		<div id="pedro_list"></div>
+		<div id="silvia_list"></div>
+	</div>
+</div>
+
+
+<!-- Wedding  -->
+<div id="wedding">  
+	<a id="wedding_place_url" target="_blank" href="http://www.valedacarva.pt/"></a>
+</div>
+
+<!-- Location  -->
+<div id="location"> 
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.6439576918683!2d-9.275921685168493!3d38.97779714980704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1f2a224aa6870d%3A0x86e9f397b0fea8a7!2sVale+C+-+Hotelaria+e+Turismo+%7C+Vale+da+Carva!5e0!3m2!1spt-PT!2spt!4v1516046306246" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+<!-- Honeymoon ;) -->
+<div id="honeymoon"> 
+<a id="honeymoon_place_url" target="_blank" href="https://es.wikipedia.org/wiki/Huesca"></a>
+</div>
+
+<!-- Photos -->
+<div id="photos">
+<iframe src="https://map.thedatapack.com/#/?p=NjkzMTE2NzkxNS45MjNmYWE4LmE5YTc5MWE4M2RiNzRhMGJhODYwYTg3MDY3MTAwYjE3&d=90&th=60&s=paleDawn" style="border: none; width: 100%; height: 100%;" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<!-- Wedding Photos -->
+<div id="wedding_photos">
+	<div id="coming_soon"><h1>Coming soon...</h1></div>
+</div>
+
+<!--
+<div id="game">
+	<div id="coming_soon"><h1>Coming soon...</h1></div>
+</div>
+-->
+
+<!-- See ya there!!! :D -->
+<div id="see_you_there"> 
+	<div id="see_you_there_wrapper">
+		
+		<h1> Vemo-nos por lá!!! :D </h1>
+	</div>
+</div>
+<div id="backToTopBtn">
+	<img id="background_backtotopbtn" src="imgs/BackToTopBackground.svg"></img>
+	<a href="#countdown"><img src="imgs/BackToTop.svg"></img></a>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+updateTime();
+</script>
