@@ -38,7 +38,7 @@ body {
 
 #branch0 {
 	position: absolute;
-	background-image: url(../imgs/branch00.svg);
+	background-image: url(../imgs/Branch00.svg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	display:block;
@@ -51,7 +51,7 @@ body {
 
 #branch1 {
 	position: absolute;
-	background-image: url(../imgs/branch01.svg);
+	background-image: url(../imgs/Branch01.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -63,7 +63,7 @@ body {
 
 #branch2 {
 	position: absolute;
-	background-image: url(../imgs/branch02.svg);
+	background-image: url(../imgs/Branch02.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -75,7 +75,7 @@ body {
 
 #branch3 {
 	position: absolute;
-	background-image: url(../imgs/branch03.svg);
+	background-image: url(../imgs/Branch03.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -89,7 +89,7 @@ body {
 
 #branch4 {
 	position: absolute;
-	background-image: url(../imgs/branch04.svg);
+	background-image: url(../imgs/Branch04.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -102,7 +102,7 @@ body {
 
 #directions {
 	position: absolute;
-	background-image: url(../imgs/directions.svg);
+	background-image: url(../imgs/Directions.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 2vw;
@@ -114,7 +114,7 @@ body {
 
 #branch5 {
 	position: absolute;
-	background-image: url(../imgs/branch05.svg);
+	background-image: url(../imgs/Branch05.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -126,7 +126,7 @@ body {
 
 #branch6 {
 	position: absolute;
-	background-image: url(../imgs/branch06.svg);
+	background-image: url(../imgs/Branch06.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
@@ -138,7 +138,7 @@ body {
 
 #branch7 {
 	position: absolute;
-	background-image: url(../imgs/branch07.svg);
+	background-image: url(../imgs/Branch07.svg);
 	background-repeat: no-repeat;
 	display:block;
 	right: 0px;
