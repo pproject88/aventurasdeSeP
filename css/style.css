@@ -8,10 +8,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 	position: relative;
-	zoom: 1;	
 }
 
-#rightTree {
+/*#rightTree {
 	position: absolute;
 	background-image: url(../imgs/RightBranch.svg);
 	background-repeat: no-repeat;
@@ -34,8 +33,22 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
-}
+}*/
 
+/*
+#branch1{
+	position: absolute;
+	background-image: url(../imgs/RightLayout.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: cover;
+	right: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100%;
+    z-index: 99;
+}*/
+/*
 #branch0 {
 	position: absolute;
 	background-image: url(../imgs/Branch00.svg);
@@ -96,7 +109,6 @@ body {
 	top: 355vh;
 	width: 100%;
 	height: 100vh;
-	/*padding-bottom: calc(40%);*/
     z-index: 99;
 }
 
@@ -147,7 +159,7 @@ body {
 	height: 100vh;
     z-index: 99;
 }
-
+*/
 
 #countdown img.btn_icon {
 	display: table-cell;
@@ -254,12 +266,14 @@ body {
 }
 
 #videos {
+	position: relative;
 	display: flex;
 	height: 100vh;
 	width: 100%;
 }
 
 #wedding_photos {
+	position: relative;
 	display: flex;
 	height: 100vh;
 	width: 100%;
@@ -267,6 +281,7 @@ body {
 
 
 #game {
+	position: relative;
 	display: flex;
 	height: 100vh;
 	width: 100%;
@@ -280,6 +295,7 @@ body {
 }
 
 #coming_soon {
+	position: relative;
 	position: absolute;
 	width: 100%;
 	height: 100vh;
@@ -296,6 +312,7 @@ body {
 }
 
 #wedding {
+	position: relative;
 	background-image: url(../imgs/wedding.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -325,6 +342,7 @@ body {
 }
 
 #location {
+	position: relative;
 	display: inline-block;
 	height: 100vh;
 	width: 100%;
@@ -337,6 +355,7 @@ body {
 }
 
 #invite_list {
+	position: relative;
 	background: #9C27B0;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -395,6 +414,7 @@ body {
 }
 
 #photos {
+	position: relative;
 	display: inline-block;
 	height: 100vh;
 	width: 100%;
@@ -442,4 +462,30 @@ body {
 }
 #backToTopBtn a:hover {
 	transform: scale(1.3);
+}
+
+.topBranch {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	pointer-events:none;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+    z-index: 99;
+}
+.bottomBranch {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	pointer-events:none;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+    z-index: 99;
 }
