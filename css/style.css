@@ -448,20 +448,9 @@ body {
 	background: rgba(0,0,0,0.7);
 }
 
-#backToTopBtn {
-	position: absolute;
-	bottom: 0px;
-	right: 57%;
-}
 
-#backToTopBtn a{
-	position: absolute;
-	z-index: 100000;
-	transform: scale(0.9);
-	bottom: 90px;
-}
-#backToTopBtn a:hover {
-	transform: scale(1.2);
+#backToTopSVG {
+	pointer-events: all;
 }
 
 .topBranch {
