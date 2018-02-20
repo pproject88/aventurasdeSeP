@@ -427,6 +427,7 @@ body {
 }
 
 #see_you_there {
+	position: relative;
 	background-image: url(../imgs/Cya.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -450,18 +451,17 @@ body {
 #backToTopBtn {
 	position: absolute;
 	bottom: 0px;
-	right: 25%;
+	right: 57%;
 }
 
 #backToTopBtn a{
 	position: absolute;
-	bottom: 22%;
-	right: 26%;
+	bottom: 40%;
 	z-index: 100000;
-	transform: scale(1.1);
+	transform: scale(0.9);
 }
 #backToTopBtn a:hover {
-	transform: scale(1.3);
+	transform: scale(1.2);
 }
 
 .topBranch {
@@ -475,6 +475,8 @@ body {
 	margin: 0px;
 	padding: 0px;
     z-index: 99;
+    height: 100vh;
+    overflow: hidden;
 }
 .bottomBranch {
 	display: block;
@@ -483,9 +485,10 @@ body {
 	left: 0px;
 	pointer-events:none;
 	min-width: 100%;
-	max-width: 100%;
-	min-height: 100vh;
+	height: 100vh;
+	width: 100vw;
 	margin: 0px;
 	padding: 0px;
     z-index: 99;
+    overflow: hidden;
 }
