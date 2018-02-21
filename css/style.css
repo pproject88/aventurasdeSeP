@@ -10,212 +10,6 @@ body {
 	position: relative;
 }
 
-/*#rightTree {
-	position: absolute;
-	background-image: url(../imgs/RightBranch.svg);
-	background-repeat: no-repeat;
-	background-position: right top;
-    width: 10%;
-    height: 100%;
-    min-height: 100%;
-    top: 0;
-    right: 0px;
-    z-index: 100;
-}
-
-#leftTree {
-	position: absolute;
-	background-image: url(../imgs/LeftBranch.svg);
-	background-repeat: no-repeat;
-    width: 10%;
-    height: 100%;
-    min-height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}*/
-
-/*
-#branch1{
-	position: absolute;
-	background-image: url(../imgs/RightLayout.svg);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: cover;
-	right: 0px;
-	top: 0px;
-	width: 100vw;
-	height: 100%;
-    z-index: 99;
-}*/
-/*
-#branch0 {
-	position: absolute;
-	background-image: url(../imgs/Branch00.svg);
-	background-repeat: no-repeat;
-	background-position: right top;
-	display:block;
-	right: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch1 {
-	position: absolute;
-	background-image: url(../imgs/Branch01.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 84vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch2 {
-	position: absolute;
-	background-image: url(../imgs/Branch02.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 165vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch3 {
-	position: absolute;
-	background-image: url(../imgs/Branch03.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	left: 0px;
-	top: 254vh;
-	display:block;
-    width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch4 {
-	position: absolute;
-	background-image: url(../imgs/Branch04.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 355vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#directions {
-	position: absolute;
-	background-image: url(../imgs/Directions.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 2vw;
-	top: 440vh;
-	width: 400px;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch5 {
-	position: absolute;
-	background-image: url(../imgs/Branch05.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 473vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch6 {
-	position: absolute;
-	background-image: url(../imgs/Branch06.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 571vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-
-#branch7 {
-	position: absolute;
-	background-image: url(../imgs/Branch07.svg);
-	background-repeat: no-repeat;
-	display:block;
-	right: 0px;
-	top: 683vh;
-	width: 100%;
-	height: 100vh;
-    z-index: 99;
-}
-*/
-
-#countdown img.btn_icon {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 4px;
-	float: right;
-}
-
-
-#countdown a li div {
-	display: inline-block;
-}
-
-#countdown a li:hover > .btn_icon_wrapper {
-  display: table-cell;
-}
-
-.btn_icon:hover {
-	transform: scale(1.5);
-}
-
-#countdown a li .btn_icon_wrapper {
-  display: none;
-}
-
-
-#countdown a {
-	text-decoration: none;
-	color: white;
-	display: block;
-	width: 100%;
-}
-
-#countdown a li{
-	position: relative;
-	display: table;
-	width: 100%;
-}
-
-.btn_icon_wrapper {
-	display: table-cell;
-	font-size: 200%;
-	vertical-align: middle;
-	line-height: 100%; 
-	text-align: end;
-	width: 100%;
-	padding-right: 50px;
-}
-
-
-#menu_list {
-	position: absolute;
-	right: 25px;
-	top: 65px;
-}
-
 #countdown {
 	position: relative;
 	background-image: url(../imgs/countdown.jpg);
@@ -233,7 +27,7 @@ body {
     vertical-align: middle;
 	vertical-align: middle;
 }
-
+/*
 #nav_menu {
 	position: absolute;
 	right: 48px;
@@ -248,12 +42,12 @@ body {
 	margin: 4px;
 	display: inline-block;
 }
-
+*/
 #countdown_text {
 	font-family: "Lobster Regular";
 }
 
-#countdown img {
+#main_logo  {
 	display:block;
     margin:auto;
 }
@@ -263,6 +57,8 @@ body {
 	margin: auto;
 	width: 100%;
 	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
 }
 
 #videos {
@@ -446,11 +242,6 @@ body {
 	vertical-align: middle;
 	text-align: center;
 	background: rgba(0,0,0,0.7);
-}
-
-
-#backToTopSVG {
-	pointer-events: all;
 }
 
 .topBranch {
